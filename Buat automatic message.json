@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Hai", "Halo", "Selamat pagi", "Selamat siang", "Selamat sore", "Apa kabar?", "Permisi"],
+      "responses": ["Halo! Ada yang bisa saya bantu?", "Hai juga! Senang bisa ngobrol denganmu.", "Halo, apa kabar hari ini?"],
+      "context": [""]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["Dadah", "Sampai jumpa", "Bye", "Terima kasih, sampai nanti", "Selamat tinggal"],
+      "responses": ["Sampai jumpa lagi!", "Semoga harimu menyenangkan!", "Bye! Jangan lupa kembali lagi nanti."],
+      "context": [""]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Terima kasih", "Makasih ya", "Thanks", "Thank you", "Terima kasih banyak"],
+      "responses": ["Sama-sama!", "Dengan senang hati!", "Tidak masalah, senang bisa membantu."],
+      "context": [""]
+    },
+    {
+      "tag": "identitas_bot",
+      "patterns": ["Siapa kamu?", "Kamu siapa?", "Namamu siapa?", "Kamu bot ya?"],
+      "responses": ["Saya adalah chatbot yang diberi nama Himeko oleh Paduka Renji", "Aku chatbot sederhana berbasis Python", "Aku asisten virtual (bukan waifu), siap bantu kamu!"],
+      "context": [""]
+    },
+    {
+      "tag": "cuaca",
+      "patterns": ["Bagaimana cuaca hari ini?", "Cuaca sekarang gimana?", "Apakah hari ini hujan?", "Apakah panas di luar?"],
+      "responses": ["Aku tidak punya sensor cuaca, tapi semoga cerah ya!", "Coba cek aplikasi cuaca, semoga tidak hujan!", "Mungkin cerah, mungkin hujan, yang penting semangat!"],
+      "context": [""]
+    },
+    {
+      "tag": "motivasi",
+      "patterns": ["Kasih aku motivasi dong", "Aku lagi sedih", "Aku butuh semangat", "Bikin aku semangat"],
+      "responses": [
+        "Jangan menyerah, setiap hari adalah kesempatan baru!",
+        "Kamu hebat, terus maju ya!",
+        "Semangat! Setiap langkah kecil tetap berarti!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query",
+      "patterns": ["Apa itu Rust Menurut Anda?", "Menurut Anda, apa itu Rust?"],
+      "responses": ["Rust adalah Beban Negara"],
+      "context": [""]
+    },
+    {
+      "tag": "pujian",
+      "patterns": ["Kamu keren", "Kamu pintar", "Chatbot ini bagus", "Keren banget kamu"],
+      "responses": ["Terima kasih! Kamu juga hebat!", "Wah makasih, aku jadi senang!", "Senang bisa membantu kamu."],
+      "context": [""]
+    },
+    {
+      "tag": "lelucon",
+      "patterns": ["Ceritain lelucon", "Bercanda dong", "Lucu dong", "Kasih aku joke"],
+      "responses": [
+        "Kenapa komputer suka berenang? Karena dia suka nge-refresh!",
+        "Kenapa programmer jarang kedinginan? Karena mereka selalu pakai cache!",
+      ],
+      "context": [""]
+    }
+  ]
+}
